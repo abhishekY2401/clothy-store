@@ -1,14 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
+.navbar {
+  padding: 20px;
+  border-bottom: 1px solid #2d2b2b;
+}
+
 .cloth {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #1b1212;
   font-family: "Raleway", sans-serif;
 }
 
-p {
-  margin: 0;
-  padding: 0;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 1.2525rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2b2b;
+}
+
+.my-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10rem;
 }

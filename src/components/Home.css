@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+.clothy-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.tshirt-img {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom_clothes {
+  font-size: 3.4em;
+  font-weight: 900;
+  color: #237a2399;
+}
+
+.shop_clothes {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.shop_clothes .clothes_desc {
+  font-size: 2em;
+  color: #282828b3;
+}
+
+.shop {
+  margin-top: 40px;
+}
+
+#shop_btn {
+  padding: 25px;
+  font-size: 1.3rem;
+  background-color: #000000e3;
+  color: #fff;
+}

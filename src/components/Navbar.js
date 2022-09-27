@@ -1,8 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import myCart from "../assets/cart.svg";
+import { useState } from "react";
 
 function Navbar() {
+  const [NoOfitems, setNoOfItems] = useState(0);
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -30,8 +32,9 @@ function Navbar() {
         </div>
         <div className="my-cart">
           <img src={myCart} alt="cart" />
-          <p>My Cart</p>
-          <p>items</p>
+          <div>
+            My Cart <br /> {NoOfitems} items
+          </div>
         </div>
       </div>
     </div>

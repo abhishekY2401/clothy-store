@@ -1,25 +1,30 @@
 import React from "react";
 import Navbar from "./Navbar";
-import shirts from "../assets/shirts.svg";
-import tshirts from "../assets/t_shirt1.svg";
-import design_shirt from "../assets/design_shirt.svg";
+import tshirts from "../assets/black_tshirts.svg";
+import "./Home.css";
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <div>
-        <header>
-          <div>
-            <div></div>
-            <div>
-              <img src={shirts} alt="shirt" />
-              <img src={tshirts} alt="tshirt" />
-              <img src={design_shirt} alt="tshirt" />
+      <header>
+        <div className="clothy-intro">
+          <div className="shop_clothes">
+            <div className="custom_clothes">Shop Customized Clothy Wears</div>
+            <div className="clothes_desc">
+              We have custom wears ranging from shirts to pants, shoes and more.
+            </div>
+            <div className="shop">
+              <a href="/" id="shop_btn">
+                Shop Now
+              </a>
             </div>
           </div>
-        </header>
-      </div>
+          <div className="tshirt-img">
+            <img src={tshirts} alt="tshirt" />
+          </div>
+        </div>
+      </header>
     </div>
   );
 }
