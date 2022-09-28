@@ -28,7 +28,7 @@ function Navbar() {
           </ul>
         </nav>
         <div>
-          <input type="search" placeholder="Search Products..." />
+          <input type="search" placeholder="Search Products..." className="search_items" />
         </div>
         <div className="my-cart">
           <img src={myCart} alt="cart" />

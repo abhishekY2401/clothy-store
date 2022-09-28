@@ -41,3 +41,9 @@ a {
   justify-content: space-evenly;
   width: 10rem;
 }
+
+.search_items {
+  padding: 15px;
+  outline: none;
+  font-size: 1.18rem;
+}

@@ -21,12 +21,13 @@
 
 .shop_clothes {
   width: 50%;
-  padding-left: 50px;
+  padding-left: 15rem;
 }
 
 .shop_clothes .clothes_desc {
-  font-size: 2em;
-  color: #282828b3;
+  margin-top: 10px;
+  font-size: 1.7em;
+  color: #646262b3;
 }
 
 .shop {
