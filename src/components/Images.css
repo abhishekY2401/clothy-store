@@ -1,0 +1,23 @@
+.classy_imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.grey_tee {
+  margin-top: -8.1rem;
+}
+
+.mixed_tee,
+.black_tee {
+  margin-left: 0.6rem;
+}
+
+.black_tee {
+  margin-top: 4px;
+}
+
+.intro__images {
+  display: flex;
+  justify-content: center;
+  padding-left: 8rem;
+}
