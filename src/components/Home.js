@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import "./Home.css";
 import Intro from "./Intro";
 import Images from "./Images";
+import Trending from "./Trending";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Intro />
         <Images />
       </div>
+      <Trending />
     </div>
   );
 }
