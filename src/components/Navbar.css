@@ -23,7 +23,7 @@ ul {
 li {
   list-style-type: none;
   padding: 16px;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   font-weight: 400;
 }
 
@@ -51,4 +51,10 @@ nav {
   padding: 15px;
   outline: none;
   font-size: 1.02rem;
+}
+
+.iconss {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }

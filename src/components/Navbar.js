@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import search from "../assets/search.svg";
 import cart from "../assets/cart.svg";
+import account from "../assets/userr.svg";
 
 function Navbar() {
   const [clickSearch, setClickSearch] = useState(false);
@@ -27,7 +28,7 @@ function Navbar() {
         <nav>
           <ul>
             <li>
-              <a href="/">About us</a>
+              <a href="/">About</a>
             </li>
             <li>
               <a href="/">Contact</a>
@@ -42,13 +43,20 @@ function Navbar() {
               className="search_items"
             />
           )}
+        </div>
+
+        <div className="iconss">
           <div className="search-icon">
             <img src={search} alt="search" />
           </div>
-        </div>
 
-        <div className="my-cart">
-          <img src={cart} alt="cart" />
+          <div className="my-cart">
+            <img src={cart} alt="cart" />
+          </div>
+
+          <div className="user-account">
+            <img src={account} alt="user" />
+          </div>
         </div>
       </div>
     </div>
